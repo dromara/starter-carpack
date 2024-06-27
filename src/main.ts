@@ -1,6 +1,6 @@
 import * as nc from 'newcar'
 
-new nc.CarEngine().init('../node_modules/canvaskit-wasm/bin/canvaskit.wasm').then(engine => {
+new nc.CarEngine().init('https://unpkg.com/canvaskit-wasm@latest/bin/canvaskit.wasm').then(engine => {
   const app = engine.createApp(document.querySelector('#canvas') as HTMLCanvasElement)
   const scene = nc.createScene(
     new nc.Widget()
