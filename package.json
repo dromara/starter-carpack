@@ -1,0 +1,20 @@
+{
+  "name": "carpack-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "carpack build"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvaskit-wasm": "^0.39.1",
+    "newcar": "^1.0.0"
+  },
+  "devDependencies": {
+    "carpack": "^0.0.3"
+  }
+}
